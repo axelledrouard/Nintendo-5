@@ -6,7 +6,7 @@ public abstract class Console {
 
 	private String nom;
     private double prix;
-    private LocalDate dateSortie
+    private LocalDate dateSortie;
 
 	public Console(String nom) {
 		this.nom = nom;
