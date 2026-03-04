@@ -1,5 +1,6 @@
 package nintendo.test;
 
+import nintendo.model.Client;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
 
@@ -17,8 +18,8 @@ public class Test {
 		Jeu jeu4 = new Jeu("Batman",c3);
 		Jeu jeu5 = new Jeu("Sonic",c3);
 		
-		Client client1 = new Client("E");
-		Client client2 = new Client("J");
+		Client client1 = new Client("Doe", "John");
+		Client client2 = new Client("Doe", "Jane");
 		
 	
 	}
