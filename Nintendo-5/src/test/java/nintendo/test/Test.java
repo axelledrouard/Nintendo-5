@@ -1,5 +1,6 @@
 package nintendo.test;
 
+import nintendo.model.Boutique;
 import nintendo.model.Client;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
