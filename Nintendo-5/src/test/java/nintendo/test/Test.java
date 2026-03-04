@@ -21,6 +21,7 @@ public class Test {
 		Client client1 = new Client("Doe", "John");
 		Client client2 = new Client("Doe", "Jane");
 		
+		Boutique boutique1 = new Boutique("Minecraft", "128 rue du dauphiné");
 	
 	}
 
