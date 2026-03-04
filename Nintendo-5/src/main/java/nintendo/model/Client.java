@@ -21,8 +21,26 @@ public class Client {
     public String getPrenom() {
         return prenom;
     }
+    
+    
 
-    @Override
+    public List<Achat> getAchat() {
+		return achat;
+	}
+
+	public void setAchat(List<Achat> achat) {
+		this.achat = achat;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+
+	@Override
     public String toString() {
         return prenom + " " + nom;
     }

@@ -1,5 +1,8 @@
 package nintendo.test;
 
+import java.time.LocalDate;
+
+import nintendo.model.Achat;
 import nintendo.model.Boutique;
 import nintendo.model.Client;
 import nintendo.model.Console;
@@ -26,6 +29,12 @@ public class Test {
 		
 		Client client1 = new Client("Doe", "John");
 		Client client2 = new Client("Doe", "Jane");
+		
+		
+		Achat a1= new Achat(jeu1, LocalDate.parse("2026-03-04"),50);
+		Achat a2=new Achat(jeu2,LocalDate.parse("2026-03-04"),20);
+		
+		client1.getAchat().add(a1);
 	
 	}
 
