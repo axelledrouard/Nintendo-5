@@ -1,5 +1,6 @@
 package nintendo.test;
 
+<<<<<<< HEAD
 import nintendo.model.Console;
 import nintendo.model.Jeu;
 
@@ -17,6 +18,13 @@ public class Test {
 		Jeu jeu4 = new Jeu("Batman",c3);
 		Jeu jeu5 = new Jeu("Sonic",c3);
 		
+=======
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+>>>>>>> feature/addClient
 	}
 
 }
