@@ -19,6 +19,10 @@ public class Boutique {
 	public void setAdresse(String adresse) {
 		this.adresse = adresse;
 	}
+	@Override
+	public String toString() {
+		return "Boutique [nom=" + nom + ", adresse=" + adresse + "]";
+	}
 	
 	
 

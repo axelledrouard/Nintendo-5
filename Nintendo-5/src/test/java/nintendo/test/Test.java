@@ -15,9 +15,9 @@ public class Test {
 
 	public static void main(String[] args) {
 
-		Console c1 = new Salon("PS4");
-		Console c2 = new Hybride("Switch");
-		Console c3 = new Portable("Gameboy");
+		Console c1 = new Salon("PS4",400,LocalDate.parse("2013-11-15"));
+		Console c2 = new Hybride("Switch",200,LocalDate.parse("2017-03-03"));
+		Console c3 = new Portable("Gameboy",80,LocalDate.parse("1989-04-21"));
 		
 		Boutique boutique1 = new Boutique("Minecraft", "128 rue du dauphiné");
 		
@@ -34,8 +34,12 @@ public class Test {
 		Achat a1= new Achat(jeu1, LocalDate.parse("2026-03-04"),50);
 		Achat a2=new Achat(jeu2,LocalDate.parse("2026-03-04"),20);
 		
+		System.out.println(client1);
 		client1.getAchat().add(a1);
-	
+		System.out.println(client1);
+		System.out.println(client2);
+
+		
 	}
 
 }

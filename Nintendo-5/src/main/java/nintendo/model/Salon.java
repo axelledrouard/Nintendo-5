@@ -1,9 +1,18 @@
 package nintendo.model;
 
+import java.time.LocalDate;
+
 public class Salon extends Console{
 
-	public Salon(String nom) {
-		super(nom);
+	public Salon(String nom, double prix, LocalDate dateSortie) {
+		super(nom,  prix, dateSortie);
+	}
+
+	@Override
+	public String toString() {
+		return "Salon [getPrix()=" + getPrix() + ", getDateSortie()=" + getDateSortie() + ", getNom()=" + getNom()
+				+ ", toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ "]";
 	}
 
 }
