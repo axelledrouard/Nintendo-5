@@ -12,8 +12,7 @@ public class Hybride extends Console {
 
 	@Override
 	public String toString() {
-		return "Hybride [getPrix()=" + getPrix() + ", getDateSortie()=" + getDateSortie() + ", getNom()=" + getNom()
-				+ ", toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+		return "Hybride [prix=" + getPrix() + ", dateSortie=" + getDateSortie() + ", nom()=" + getNom()
 				+ "]";
 	}
 }
