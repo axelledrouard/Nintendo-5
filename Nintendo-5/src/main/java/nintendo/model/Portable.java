@@ -8,10 +8,8 @@ public class Portable extends Console{
 		super(nom, prix, dateSortie);
 	}
 
-	@Override
 	public String toString() {
-		return "Portable [getPrix()=" + getPrix() + ", getDateSortie()=" + getDateSortie() + ", getNom()=" + getNom()
-				+ ", toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+		return "Portable [prix=" + getPrix() + ", dateSortie=" + getDateSortie() + ", nom()=" + getNom()
 				+ "]";
 	}
 	

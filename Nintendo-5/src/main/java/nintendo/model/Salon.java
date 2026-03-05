@@ -8,11 +8,8 @@ public class Salon extends Console{
 		super(nom,  prix, dateSortie);
 	}
 
-	@Override
 	public String toString() {
-		return "Salon [getPrix()=" + getPrix() + ", getDateSortie()=" + getDateSortie() + ", getNom()=" + getNom()
-				+ ", toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+		return "Salon [prix=" + getPrix() + ", dateSortie=" + getDateSortie() + ", nom()=" + getNom()
 				+ "]";
 	}
-
 }
