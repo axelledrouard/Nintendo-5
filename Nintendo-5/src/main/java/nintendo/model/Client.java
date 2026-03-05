@@ -41,8 +41,10 @@ public class Client {
 	}
 
 	@Override
-    public String toString() {
-        return prenom + " " + nom;
-    }
+	public String toString() {
+		return "Client [nom=" + nom + ", prenom=" + prenom + ", achat=" + achat + "]";
+	}
+
+	
 
 }

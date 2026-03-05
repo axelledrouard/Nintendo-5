@@ -8,7 +8,7 @@ public abstract class Console {
     private double prix;
     private LocalDate dateSortie;
 
-	public Console(String nom) {
+	public Console(String nom, double prix, LocalDate dateSortie) {
 		this.nom = nom;
 		this.prix = prix;
         this.dateSortie = dateSortie;
